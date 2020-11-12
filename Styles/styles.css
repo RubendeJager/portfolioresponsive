@@ -1,11 +1,16 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Archivo, "source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 .wrapper {
     width: 100vw;
     height: 100vw;
 }
+
 .sidebar {
     height: 100%;
     width: 160px;
@@ -15,7 +20,30 @@ body {
     left: 0;
     background-color: #F28705;
     overflow-x: hidden;
+    padding-bottom: 30px;
 }
+.wrapper .sidebar ul li {
+    padding: 15px 15px 15px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+    position: relative;
+    top: 66px;
+    transition: all 0.2s;
+}
+.wrapper .sidebar ul li:hover{
+    background:rgba( 230, 180, 160, 0.8 );
+}
+.sidebar a{
+    color: white;
+}
+.wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    margin-left: 22px ;   
+}
+
+
+
 .main {
     margin-left: 160px;
     padding: 0px 10px;
