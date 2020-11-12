@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vw;
+}
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F28705;
+    overflow-x: hidden;
+}
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
