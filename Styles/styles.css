@@ -17,13 +17,19 @@
     background-color: #F28705;
     overflow-x: hidden;
     padding-bottom: 30px;
+    border-right: 1px solid;
+}
+.logocorner {
+    height: auto;
+    width: 160px;
+    max-height: 84px;
 }
 .sidebar ul li {
     padding: 15px 15px 15px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(225, 225, 225, 0.05);
     position: relative;
-    top: 66px;
+    top: -3px;
     transition: all 0.2s;
 }
 .sidebar ul li:hover{
@@ -32,6 +38,8 @@
 .sidebar ul li a{
     color: white;
     padding-left: 15px;
+    display: block;
+    width: 160px;
 }
 .sidebar .social_media {
     position: absolute;
@@ -61,8 +69,18 @@
     margin-left: 160px;
     padding: 0px 10px;
 }
-header {
+.header {
     margin-left: 160px;
     background: #D8D8D8;
     height: 84px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid;
+
+}
+figure .homepic {
+
+    width: 100%;
 }
