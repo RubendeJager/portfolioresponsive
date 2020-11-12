@@ -6,10 +6,6 @@
     list-style: none;
     text-decoration: none;
 }
-.wrapper {
-    width: 100vw;
-    height: 100vw;
-}
 
 .sidebar {
     height: 100%;
@@ -22,7 +18,7 @@
     overflow-x: hidden;
     padding-bottom: 30px;
 }
-.wrapper .sidebar ul li {
+.sidebar ul li {
     padding: 15px 15px 15px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(225, 225, 225, 0.05);
@@ -30,21 +26,43 @@
     top: 66px;
     transition: all 0.2s;
 }
-.wrapper .sidebar ul li:hover{
+.sidebar ul li:hover{
     background:rgba( 230, 180, 160, 0.8 );
 }
-.sidebar a{
+.sidebar ul li a{
     color: white;
+    padding-left: 15px;
 }
-.wrapper .sidebar .social_media {
+.sidebar .social_media {
     position: absolute;
     bottom: 0;
-    margin-left: 22px ;   
+}
+.row {
+    margin: 0 0 50px 25px;
 }
 
-
-
+.wrapper .sidebar .social_media div a {
+    padding: 8px;
+    margin: 5px 5px 0px 5px;
+    border: 2px solid rgb(35, 37, 33);
+    /*background-color: rgba(30, 30, 40, 0.8 );*/
+    border-radius: 4px;
+    transition: all 0.5s;
+    color: #D8D8D8;
+}
+.wrapper .sidebar .social_media div a:hover {
+    transform: scale( 1.2 );
+    box-shadow: -1px 2px 7px -2px rgba(0,0,0,0.75);
+}
+#linkedin {
+    margin-left: 10px;
+}
 .main {
     margin-left: 160px;
     padding: 0px 10px;
+}
+header {
+    margin-left: 160px;
+    background: #D8D8D8;
+    height: 84px;
 }
