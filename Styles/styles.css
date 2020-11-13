@@ -7,6 +7,9 @@
     text-decoration: none;
 }
 
+
+
+
 .sidebar {
     height: 100%;
     width: 160px;
@@ -48,7 +51,6 @@
 .row {
     margin: 0 0 50px 25px;
 }
-
 .wrapper .sidebar .social_media div a {
     padding: 8px;
     margin: 5px 5px 0px 5px;
@@ -65,6 +67,9 @@
 #linkedin {
     margin-left: 10px;
 }
+
+
+
 .main {
     margin-left: 160px;
     padding: 0px 10px;
@@ -78,9 +83,46 @@
     font-size: 30px;
     padding: 10px;
     border-bottom: 1px solid;
-
 }
+
+
+
 figure .homepic {
 
     width: 100%;
+}
+
+
+
+
+.form {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+form {
+    display: block;
+}
+fieldset {
+    display: block;
+    margin: 20px;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+fieldset label, fieldset input, fieldset select, fieldset textarea {
+    min-width: 320px;
+    vertical-align: top;
+}
+
+label {
+    text-align: right;
+}
+
+label, input, select {
+    display: inline-block;
+    margin: 10px 0;
 }

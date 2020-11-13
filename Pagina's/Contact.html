@@ -21,6 +21,7 @@
                     <li><a href="Overmezelf.html">Over mezelf</a></li>
                     <li><a href="Projecten.html">Projecten</a></li>
                     <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Werkplekleren.html">Werkplekleren</a></li>
                 </ul>
                 <div class="social_media">
                     <div class="row">
@@ -31,15 +32,41 @@
                         <a href="cv.html">CV</a>
                         <a href="http://www.thomasmore.be/" target="_blank">TM</a>
                     </div>
-
-
                 </div>
             </nav>
+
+
             <header class="header">
                 <h1>contact</h1>
             </header>
-            <div class="main">
 
+            
+            <div class="main">
+                <div class="form">
+                    <form action="post-demo.php" method="post">
+                        <fieldset>
+                            <legend>Persoonlijke gegevens</legend>
+                            <label for="firstname">Voornaam</label>
+                            <input type="text" name="Voornaam" id="firstname">
+                            <label for="lastname">Achternaam</label>
+                            <input type="text" name="Achternaam" id="lastname">
+                            <label for="mail">E-mail</label>
+                            <input type="email" name="E-mail" id="email">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Uw vraag</legend>
+                            <label for="questionType">Soort vraag</label>
+                            <select name="Type-vraag" id="questionType">
+                                <option value="algemeen">Algemene vraag</option>
+                                <option value="programmeren">Vraag voor programmeren</option>
+                                <option value="muziek">Vraag voor muziek</option>
+                            </select>
+                            <label for="question">Uw vraag</label>
+                            <textarea name="vraag" id="question" cols="30" rows="10"></textarea>
+                        </fieldset>
+                        <input type="submit" name="Verstuur">
+                    </form>
+                    </div>
             </div>
         </div>
     </body>
