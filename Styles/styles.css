@@ -90,7 +90,7 @@
 figure .homepic {
 
     margin: 20px auto 0 65px;
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
 
 }
@@ -133,7 +133,7 @@ label, input, select {
 
 /*--------Over mezelf--------*/
 
-.overmezelf1 {
+.wiebenik {
     background: #ECEFF4;
     border: 1px solid;
     width: 866px;
@@ -141,8 +141,10 @@ label, input, select {
     padding: 10px;
     margin: 25px 0px 0px 30px;
     display: inline-block;
+    border-radius: 5px;
+
 }
-.overmezelf2 {
+.overmezelf {
     background: #ECEFF4;
     border: 1px solid;
     width: 1150px;
@@ -150,6 +152,7 @@ label, input, select {
     padding: 10px;
     margin: 25px 0px 0px 30px;
     display: inline-block;
+    border-radius: 5px;
 }
 
 .overmezelffoto {
@@ -157,9 +160,30 @@ label, input, select {
     width: auto;
     display: inline;
     vertical-align: top;
-    margin: 18px 0px 0px 50px;    
+    margin: 25px 0px 0px 50px;    
 }
+.omprogrammeren {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border: 0.5px solid;
+    padding: 5px 10px 5px 10px;
+
+}
+.ommuziek {
+    width: 50%;
+    height: 100%;
+    float: right;
+    border: 0.5px solid;
+    border-left: none;
+    padding: 5px 10px 5px 10px;
+}
+.omprogrammeren p, .ommuziek p {
+    margin-top: 10px;
+}
+
 /*--------Projects--------*/
+
 .projectarticle {
     display: inline-block;
     background: #ECEFF4;
@@ -168,6 +192,8 @@ label, input, select {
     height: 231px;
     padding: 10px;
     margin: 18px 0px 0px 20px;
+    border-radius: 5px;
+
 }
 .projectarticle h2 {
     margin-left: 10px;
