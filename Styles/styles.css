@@ -87,11 +87,12 @@
 .header h1 {
     color: #81A1C1;
 }
-
-
 figure .homepic {
 
-    width: 100%;
+    margin: 20px auto 0 65px;
+    max-width: 90%;
+    height: auto;
+
 }
 
 
