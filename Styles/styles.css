@@ -90,8 +90,8 @@
 }
 figure .homepic {
 
-    margin: 20px auto 0 65px;
-    max-width: 50%;
+    margin: 20px 80px 0 220px;
+    max-width: 65%;
     height: auto;
 
 }
@@ -220,3 +220,24 @@ label, input, select {
     display: inline;
 }
 
+/*--------Project: Portfolio--------*/
+
+.portfoliosection {
+    background: #ECEFF4;
+    border: 1px solid;
+    width: 750px;
+    height: 150px;
+    padding: 10px;
+    margin: 25px auto 0px auto;
+    display: block;
+    border-radius: 5px;
+}
+.eersteversiefoto {
+    height: 350px;
+    width: auto;
+    margin: 10px auto 10px auto;
+    display: block;
+}
+.portfoliosection h2 {
+    text-align: center;
+}
