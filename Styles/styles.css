@@ -17,10 +17,10 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #8FBCBB;/*#F28705*/
+    background-color: #ECEFF4;/*#F28705*/
     overflow-x: hidden;
     padding-bottom: 30px;
-    border-right: 1px solid;
+    border-right: 1px #4C566A solid;
 }
 .logocorner {
     height: auto;
@@ -36,10 +36,11 @@
     transition: all 0.2s;
 }
 .sidebar ul li:hover{
-    background:rgba( 230, 180, 160, 0.8 );
+    /*background:rgba( 230, 180, 160, 0.8 );*/
+    background: #d0e0f0;
 }
 .sidebar ul li a{
-    color: #D8DEE9;/*white*/
+    color: #4C566A;/*white*/
     padding-left: 15px;
     display: inline-block;
     width: 160px;
@@ -58,14 +59,14 @@
     /*background-color: rgba(30, 30, 40, 0.8 );*/
     border-radius: 4px;
     transition: all 0.5s;
-    color: #D8DEE9;/*#D8D8D8*/
+    color: #4C566A;/*#D8D8D8*/
 }
 .wrapper .sidebar .social_media div a:hover {
     transform: scale( 1.2 );
     box-shadow: -1px 2px 7px -2px rgba(0,0,0,0.75);
 }
 #linkedin {
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 /*--------main--------*/
@@ -82,7 +83,7 @@
     text-align: center;
     font-size: 30px;
     padding: 10px;
-    border-bottom: 1px solid;
+    border-bottom: 1px #4C566A solid;
 }
 .header h1 {
     color: #81A1C1;
@@ -93,6 +94,12 @@ figure .homepic {
     max-width: 50%;
     height: auto;
 
+}
+p,h2 {
+    color: #4C566A;
+}
+.main a{
+    color: black;
 }
 
 
@@ -143,6 +150,9 @@ label, input, select {
     display: inline-block;
     border-radius: 5px;
 
+}
+.wiebenik p {
+    margin-top: 10px;
 }
 .overmezelf {
     background: #ECEFF4;
@@ -209,3 +219,4 @@ label, input, select {
     margin: 10px 0px 10px 5px;
     display: inline;
 }
+
