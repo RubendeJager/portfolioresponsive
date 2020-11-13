@@ -41,7 +41,7 @@
 .sidebar ul li a{
     color: #D8DEE9;/*white*/
     padding-left: 15px;
-    display: block;
+    display: inline-block;
     width: 160px;
 }
 .sidebar .social_media {
@@ -138,10 +138,26 @@ label, input, select {
     border: 1px solid;
     width: 866px;
     height: 231px;
+    padding: 10px;
+    margin: 25px 0px 0px 30px;
+    display: inline-block;
+}
+.overmezelf2 {
+    background: #ECEFF4;
+    border: 1px solid;
+    width: 1150px;
+    height: 231px;
+    padding: 10px;
+    margin: 25px 0px 0px 30px;
+    display: inline-block;
+}
 
-    padding: 10px 10px;
-    margin: 18px 0px 0px 20px;
-
+.overmezelffoto {
+    height: 231px;
+    width: auto;
+    display: inline;
+    vertical-align: top;
+    margin: 18px 0px 0px 50px;    
 }
 /*--------Projects--------*/
 .projectarticle {
@@ -150,9 +166,6 @@ label, input, select {
     border: 1px solid;
     width: calc(866px/1.4);
     height: 231px;
-
-    padding: 10px 10px;
+    padding: 10px;
     margin: 18px 0px 0px 20px;
 }
-
----wowowow---
