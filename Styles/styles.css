@@ -8,7 +8,7 @@
 }
 
 
-
+/*--------Side Nav--------*/
 
 .sidebar {
     height: 100%;
@@ -17,7 +17,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #F28705;
+    background-color: #8FBCBB;/*#F28705*/
     overflow-x: hidden;
     padding-bottom: 30px;
     border-right: 1px solid;
@@ -39,7 +39,7 @@
     background:rgba( 230, 180, 160, 0.8 );
 }
 .sidebar ul li a{
-    color: white;
+    color: #D8DEE9;/*white*/
     padding-left: 15px;
     display: block;
     width: 160px;
@@ -58,7 +58,7 @@
     /*background-color: rgba(30, 30, 40, 0.8 );*/
     border-radius: 4px;
     transition: all 0.5s;
-    color: #D8D8D8;
+    color: #D8DEE9;/*#D8D8D8*/
 }
 .wrapper .sidebar .social_media div a:hover {
     transform: scale( 1.2 );
@@ -68,7 +68,7 @@
     margin-left: 10px;
 }
 
-
+/*--------main--------*/
 
 .main {
     margin-left: 160px;
@@ -76,7 +76,7 @@
 }
 .header {
     margin-left: 160px;
-    background: #D8D8D8;
+    background: #ECEFF4;/*#D8D8D8*/
     height: 84px;
     text-transform: uppercase;
     text-align: center;
@@ -84,7 +84,9 @@
     padding: 10px;
     border-bottom: 1px solid;
 }
-
+.header h1 {
+    color: #81A1C1;
+}
 
 
 figure .homepic {
@@ -93,7 +95,7 @@ figure .homepic {
 }
 
 
-
+/*--------form--------*/
 
 .form {
     max-width: 1000px;
@@ -125,4 +127,29 @@ label {
 label, input, select {
     display: inline-block;
     margin: 10px 0;
+}
+
+
+/*--------Over mezelf--------*/
+
+.overmezelf1 {
+    background: #ECEFF4;
+    border: 1px solid;
+    width: 866px;
+    height: 231px;
+
+    padding: 10px 10px;
+    margin: 18px 0px 0px 20px;
+
+}
+/*--------Projects--------*/
+.projectarticle {
+    display: inline-block;
+    background: #ECEFF4;
+    border: 1px solid;
+    width: calc(866px/1.4);
+    height: 231px;
+
+    padding: 10px 10px;
+    margin: 18px 0px 0px 20px;
 }
