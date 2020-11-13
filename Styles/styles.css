@@ -169,3 +169,17 @@ label, input, select {
     padding: 10px;
     margin: 18px 0px 0px 20px;
 }
+.projectarticle h2 {
+    margin-left: 10px;
+}
+.projarticleparagraph {
+    width: 50%;
+    float: right;
+    margin-top: 10px;
+}
+.projarticlefigure {
+    height: 170px;
+    width: 280px;
+    margin: 10px 0px 10px 5px;
+    display: inline;
+}
