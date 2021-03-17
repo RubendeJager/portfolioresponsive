@@ -7,32 +7,32 @@
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
 
-/*--------Side Nav--------*/
+
 
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 8%;
     position: fixed;
     z-index: 1;
-    /*top: 0;
-    left: 0;
-    overflow-x: hidden;*/
     background-color: #ECEFF4;/*#F28705*/
-    padding-bottom: 30px;
     border-right: 1px #4C566A solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .logocorner {
-    height: auto;
-    width: 160px;
-    max-height: 84px;
+    width: 100%;
+    max-height: 100%;
 }
+
 .sidebar ul li {
-    padding: 15px 15px 15px 0px;
+    padding: 1.5vh 0vh 1.5vh 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(225, 225, 225, 0.05);
-    position: relative;
-    top: -3px;
     transition: all 0.2s;
 }
 .sidebar ul li:hover{
@@ -43,45 +43,49 @@
     color: #4C566A;/*white*/
     padding-left: 15px;
     display: inline-block;
-    width: 160px;
+    width: 8vw;
+    font-size: 1vw;
 }
-.sidebar .social_media {
-    position: absolute;
-    bottom: 0;
-}
-.row {
-    margin: 0 0 50px 25px;
+.social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20%;
 }
 .wrapper .sidebar .social_media div a {
     padding: 8px;
-    margin: 5px 5px 0px 5px;
+    margin: 0px 0.5vw;
     border: 2px solid rgb(35, 37, 33);
     /*background-color: rgba(30, 30, 40, 0.8 );*/
     border-radius: 4px;
     transition: all 0.5s;
     color: #4C566A;/*#D8D8D8*/
 }
-.wrapper .sidebar .social_media div a:hover {
-    /*transform:scale( 1.2 );*/
-    box-shadow: -1px 2px 7px -2px rgba(0,0,0,0.75);
+.row {
+    font-size: smaller;
 }
-#linkedin {
-    margin-left: 12px;
-}
+
 
 /*--------main--------*/
 
+
+.mainsection {
+    width: 92%;
+    float: right;
+}
 .main {
-    margin-left: 160px;
-    padding: 0px 10px;
+    width: 100%;
+    padding: 2vh 2vw;
 }
 .header {
-    margin-left: 160px;
+    width: 100%;
+
     background: #ECEFF4;/*#D8D8D8*/
     height: 84px;
     text-transform: uppercase;
     text-align: center;
-    font-size: 30px;
+    font-size: 2em;
     padding: 10px;
     border-bottom: 1px #4C566A solid;
 }
@@ -103,10 +107,12 @@ p,h2 {
 }
 
 
+
 /*--------form--------*/
 
 .form {
-    max-width: 1000px;
+    max-width: 50vw;
+
     margin: 40px auto;
 }
 form {
@@ -138,62 +144,14 @@ label, input, select {
 }
 
 
-/*--------Over mezelf--------*/
-
-.wiebenik {
-    background: #ECEFF4;
-    border: 1px solid;
-    width: 866px;
-    height: 231px;
-    padding: 10px;
-    margin: 25px 0px 0px 30px;
-    display: inline-block;
-    border-radius: 5px;
-
-}
-.wiebenik p {
-    margin-top: 10px;
-}
-.overmezelf {
-    background: #ECEFF4;
-    border: 1px solid;
-    width: 1150px;
-    height: 231px;
-    padding: 10px;
-    margin: 25px 0px 0px 30px;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.overmezelffoto {
-    height: 231px;
-    width: auto;
-    display: inline;
-    vertical-align: top;
-    margin: 25px 0px 0px 50px;    
-}
-.omprogrammeren {
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-    border: 0.5px solid;
-    padding: 5px 10px 5px 10px;
-
-}
-.ommuziek {
-    width: 50%;
-    height: 100%;
-    float: right;
-    border: 0.5px solid;
-    border-left: none;
-    padding: 5px 10px 5px 10px;
-}
-.omprogrammeren p, .ommuziek p {
-    margin-top: 10px;
-}
-
 /*--------Projects--------*/
 
+.projectpage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
 .projectarticle {
     display: inline-block;
     background: #ECEFF4;
@@ -240,4 +198,160 @@ label, input, select {
 }
 .portfoliosection h2 {
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+
+
+    .social_media {
+        display: flex;
+        height: 30%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .social_media > * {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: space-between;    
+    }
+    .social_media div > * {
+        margin:  0.5em 0!important;
+    }
+    .row {
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Archivo, "source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    
+    
+    .sidebar {
+        height: 3em;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: #ECEFF4;/*#F28705*/
+        border-bottom: 1px #4C566A solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    .logocorner {
+        width: 100%;
+        max-height: 100%;
+    }
+    .sidebar ul {
+        display: flex;
+    }
+    
+    .sidebar ul li {
+        height: 2.99em;
+        transition: all 0.2s;
+    }
+    .sidebar ul li:hover{
+        /*background:rgba( 230, 180, 160, 0.8 );*/
+        background: #d0e0f0;
+    }
+    .sidebar ul li a{
+        color: #4C566A;/*white*/
+        display: inline-block;
+        width: 100%;
+        height: 2.99em;
+        font-size: 1rem;
+        text-align: center;
+        padding: 5px;
+    }
+    .navlinkdiv {
+        height: 3em;
+    }
+    .social_media {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 20%;
+    }
+    .wrapper .sidebar .social_media div a {
+        padding: 8px;
+        margin: 0px 0.5vw;
+        border: 2px solid rgb(35, 37, 33);
+        /*background-color: rgba(30, 30, 40, 0.8 );*/
+        border-radius: 4px;
+        transition: all 0.5s;
+        color: #4C566A;/*#D8D8D8*/
+    }
+    .row {
+        font-size: 0.95em;
+    }
+    
+    
+    /*--------main--------*/
+    
+    
+    .mainsection {
+        width: 100%;
+        position: relative;
+        top: 3em;
+    }
+    .main {
+        width: 100%;
+        padding: 2vh 2vw;
+    }
+    .header {
+        width: 100%;
+    
+        background: #ECEFF4;/*#D8D8D8*/
+        height: 84px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2em;
+        padding: 10px;
+        border-bottom: 1px #4C566A solid;
+    }
+    .header h1 {
+        color: #81A1C1;
+    }
+    figure .homepic {
+    
+        margin: 20px 80px 0 220px;
+        max-width: 65%;
+        height: auto;
+    
+    }
+    p,h2 {
+        color: #4C566A;
+    }
+    .main a{
+        color: black;
+    }
+       
+    label {
+        text-align: left;
+    }
 }
