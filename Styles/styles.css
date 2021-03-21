@@ -24,6 +24,13 @@ img {
     justify-content: space-between;
     flex-direction: column;
 }
+.smbot {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3em;  
+}
 .logocorner {
     width: 100%;
     max-height: 84px;
@@ -97,7 +104,7 @@ img {
 .homepic {
     
     margin: 20px 80px 0 220px;
-    max-width: 70%;
+    max-width: 68%;
     height: auto;
 
 }
@@ -159,7 +166,7 @@ label, input, select {
     background: #ECEFF4;
     border: 1px solid;
     width: calc(866px/1.4);
-    height: 231px;
+    min-height: 231px;
     padding: 10px;
     margin: 18px 0px 0px 20px;
     border-radius: 5px;
@@ -452,5 +459,47 @@ label, input, select {
     }
     .portfoliosection h2 {
         text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 605px) {
+    .sidebar {
+        justify-content: space-around;
+    }
+    .smtop {
+        display: none;
+    }
+    .smbot {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .smbot .social_media div a {
+        padding: 8px;
+        margin: 0px 5vw;
+        border: 2px solid rgb(35, 37, 33);
+        border-radius: 4px;
+        transition: all 0.5s;
+        color: #4C566A;
+    }
+    .row {
+        font-size: 0.95em;
+        margin-top: 0;
+    }
+
+    .projectarticle {
+        width: auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        padding-left: 2em;
+
+    }
+    .projarticleparagraph {
+        float: left;
+        width: 100%;
     }
 }
